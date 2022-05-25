@@ -118,21 +118,21 @@ $$\text{ELUE}_{\text{score}} = \frac{1}{n}\sum_i^n{\Delta_i} = \frac{1}{n}\sum_i
 
 其中 $p_i$ 和 $f_i$ 为所提交模型的性能和对应的FLOPs，$n$ 是所提交模型的数据点数，考虑到一些动态方法（如早退方法）可以灵活调整模型的推断效率，因此允许提交时包含多个数据点（一个数据点包含一个FLOPs以及对应的性能）。
 
-<div align=center><img width="468" height="236" src="https://github.com/xyltt/CCL2022-CELUE/blob/main/img/elue_score.png"/></div>
+<div align=center><img width="468" height="236" src="https://github.com/fastnlp/CCL2022-CELUE/tree/main/img/elue_score.png"/></div>
 <p align='center'>图1：计算ELUE分数的示意图</p>
 
 ## 4.提交方式
 
 最终的结果提交与评测均在智源指数网站[^6]（[CUGE](http://cuge.baai.ac.cn/#/)）的上进行，届时智源指数网站将会开通相应的提交与评测系统，参赛者可以在网站上注册账号并提交相应的测试文件。对于每个数据集，需要提交两种文件：（1）包含预测结果的测试文件，（2）定义模型的Python文件。每个数据集一个单独文件夹且以数据名称命名。测试文件可以有多个，每个都表示在一定效率下的预测结果，其格式如图2所示。
 
-<div align=center><img width="389" height="78" src="https://github.com/xyltt/CCL2022-CELUE/blob/main/img/test.png"/></div>
+<div align=center><img width="389" height="78" src="https://github.com/fastnlp/CCL2022-CELUE/tree/main/img/test.png"/></div>
 <p align='center'>图2：测试文件示例</p>
 
 除了测试样本序号和预测的结果外，测试文件中还需要有一列“modules”，这一列表示在对相应的样本进行预测时通过了模型的哪些模块。每个模块前的数字代表该模块的输入形状，例如“emb”前的“(10)”表示输入的“emb”是一个长度为10的序列。除了测试文件之外，还需要提交一个定义模型的Python文件，仅支持使用Pytorch实现模型。图3是一个使用PyTorch和Transformers代码库实现的Python文件示例。通过提交定义模型的Python文件，ELUE能够计算平均浮点运算次数，以及模型的参数数量。
 
 由于本次评测会重点关注模型的推断效率，在提交的时候会限制所提交模型的规模大小，允许提交的模型参数数量需控制在0-140M内（评测组织方所提供的基线模型ElasticBERT-Chinese约有120M的参数）。
 
-<div align=center><img width="392" height="451" src="https://github.com/xyltt/CCL2022-CELUE/blob/main/img/python.png"/></div>
+<div align=center><img width="392" height="451" src="https://github.com/fastnlp/CCL2022-CELUE/tree/main/img/python.png"/></div>
 <p align='center'>图3：定义模型的Python文件示例</p>
 
 ## 5.评测赛程
