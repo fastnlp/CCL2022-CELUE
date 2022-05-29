@@ -25,7 +25,7 @@
 
 ## 2.评测数据
 
-本次评测中我们提供五个中文自然语言理解任务数据集：PKU-SEG, PKU-SEGPOS, CCPM, CMeEE. 所有任务和数据集的统计如表1所示。
+本次评测中我们提供五个中文自然语言理解任务数据集：CNHC, WordSeg-Weibo, PKU-SEGPOS, CCPM, CMeEE. 所有任务和数据集的统计如表1所示。
 
 <p align='center'>表1：任务和数据集的描述与统计</p>
 <table align='center'>
