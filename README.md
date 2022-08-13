@@ -1,6 +1,7 @@
 # CCL 2022 中文高效自然语言理解模型评测
 
 **最新消息**
+- `2022.8.13` 无答案的测试集可以在[谷歌云盘](https://drive.google.com/file/d/1eszCntgkNsG9GE9trCW2D6F1wLSe2_cn/view?usp=sharing)和[智源指数平台](http://cuge.baai.ac.cn/#/ccl_elue)进行下载。
 - `2022.7.25` 由于PKU-SEGPOS数据集标签集出现问题，现对该数据集进行更新，参赛者可以前往[谷歌云盘](https://drive.google.com/file/d/1bvq5k4pP0GXkiHWf47cYesfESLS9QiSM/view?usp=sharing)进行下载。
 - `2022.6.13` 由于平台出现故障，导致一些参赛者的报名数据出现丢失。请各位参赛者前往[智源平台](http://cuge.baai.ac.cn/#/ccl_elue)查看报名信息是否丢失。若出现丢失，请重新进行报名。给各位带来麻烦，还请谅解！
 - `2022.6.04` 训练集和验证集可在[谷歌云盘下载](https://drive.google.com/file/d/1cDk-f5yveNU1svoh6Y6898v5AbjEsmdX/view?usp=sharing)，[报名系统](http://cuge.baai.ac.cn/#/ccl_elue)已开放，请各位参赛者前往智源指数网站进行注册并报名。
