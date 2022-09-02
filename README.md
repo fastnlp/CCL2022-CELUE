@@ -1,7 +1,7 @@
 # CCL 2022 中文高效自然语言理解模型评测
 
 **最新消息**
-- `2022.9.1` 评测截止日期提前到9月13号，请参赛者尽快前往[智源指数平台](http://cuge.baai.ac.cn/#/ccl_elue)进行提交评测。
+- `2022.9.1` 评测截止日期提前到9月13号，请参赛者尽快前往[智源指数平台](http://cuge.baai.ac.cn/#/ccl_elue)进行提交评测。同时，技术报告及比赛代码的提交截止日期提前到9月18号。
 - `2022.8.25` 提交评测入口已开放，请参赛者前往[智源指数平台](http://cuge.baai.ac.cn/#/ccl_elue)进行提交评测。在提交前请仔细阅读提交格式。由于评测过程需要占用大量计算资源，因此限定一个参赛队伍一天只允许提交一次。每个任务都要有相应的测试文件，否则不会计入排行榜内。其他注意事项请阅读提交系统中的提交格式文件。
 - `2022.8.13` 无答案的测试集可以在[谷歌云盘](https://drive.google.com/file/d/1eszCntgkNsG9GE9trCW2D6F1wLSe2_cn/view?usp=sharing)和[智源指数平台](http://cuge.baai.ac.cn/#/ccl_elue)进行下载。
 - `2022.7.25` 由于PKU-SEGPOS数据集标签集出现问题，现对该数据集进行更新，参赛者可以前往[谷歌云盘](https://drive.google.com/file/d/1bvq5k4pP0GXkiHWf47cYesfESLS9QiSM/view?usp=sharing)进行下载。
